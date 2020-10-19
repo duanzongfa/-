@@ -1,0 +1,351 @@
+@charset "utf-8";
+*{
+	padding:0;
+	margin:0;
+	border:0;
+}
+#all{
+	width:960px;
+	height:auto;
+	margin:0 auto;
+}
+header{
+	height:150px;
+}
+nav{
+	position:relative;
+	top:-3px;
+	height:48px;
+	background:url(images/nav_bj.jpg) bottom repeat-x;
+}
+nav a{
+	float:left;
+	width:100px;
+	line-height:48px;
+	text-align:center;
+	margin-left:10px;
+	font-size:14px;
+	font-weight:bold;
+	color:#ffffff;
+	letter-spacing:1px;
+	text-decoration:none;
+	display:block;
+}
+nav a:hover{
+	background:url(images/nav_hover.gif) no-repeat;
+}
+/*------------------------------------------------main-----------------------------------------------------*/
+#main_top{
+	height:213px;
+	margin-top:2px;
+}
+.tq{
+	height:211px;
+	border:1px solid #bd9a4d;
+	width:219px;
+	float:left;
+}
+.tq_nr{
+	background:url(images/tq_bj.jpg) top repeat-x;
+	height:167px;
+}
+.tq_nr img{
+	float:left;
+	margin:10px;
+}
+.tq_nr p{
+	float:left;
+	color:#000033;
+	font-size:12px;
+	line-height:30px;
+	width:120px;
+}
+.tq_nr p span{
+	color:#FF3300;
+	font-weight:bold;
+	margin:5px;
+}
+.tq_nr  h2{
+	clear:both;
+	color:#FF3300;
+	text-indent:25px;
+	line-height:21px;
+	width:210px;
+	padding:5px;
+	font-size:12px;
+	font-weight:normal;
+}
+.ad{
+	float:left;
+	width:487px;
+	height:211px;
+	margin-left:5px;
+	border:1px #999999 solid;
+}
+.tj_link{
+	margin-left:5px;
+	width:236px;
+	height:209px;
+	border:2px #e0e1e2 solid;
+	float:left;
+}
+.tj_link li{
+	background:url(images/tj_link_bj.jpg) bottom repeat-x;
+	height:52px;
+	list-style:none;
+	text-align:center;
+}
+.tj_link li a{
+	color:#2fa5e8;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:50px;
+}
+/*main*/
+#main_middle{
+	clear:both;
+	margin-top:5px;
+	height:505px;
+
+}
+#left{
+	float:left;
+	width:716px;
+}
+.lyzx{
+	border:1px #97d0ff solid;
+	height:278px;
+	width:220px;
+	float:left;
+}
+.lyzx_title{
+	background:url(images/title_bj.jpg) left;
+	height:29px;
+
+}
+.lyzx_title h3{
+	color:#FFFFFF;
+	font-size:12px;
+	margin-left:20px;
+	line-height:28px;
+	letter-spacing:2px;
+}
+.lyzx ul{
+	margin-left:15px;
+	margin-top:8px;
+	width:190px;
+}
+.lyzx ul li{
+	list-style:none;
+	width:190px;
+	overflow:hidden;
+	background:url(images/newslb_bj.gif) left bottom no-repeat;
+	height:24px;
+	padding-left:14px;
+}
+.lyzx ul li a{
+	font-size:12px;
+	line-height:23px;
+	color:#226db1;
+	text-decoration:none;
+}
+.lyzx ul li a:hover{
+	color:#3399CC;
+}
+.tjlx{
+	width:487px;
+	border:1px #008bd6 solid;
+	float:left;
+	margin-left:5px;
+	height:278px;
+}
+.tjlx_title{
+	background:url(images/m_title_bj.gif);
+	height:38px;
+}
+.tjlx_title h3{
+	color:#20517e;
+	font-size:12px;
+	margin-left:28px;
+	line-height:38px;
+	letter-spacing:2px;
+}
+.tjlx ul li{
+	float:left;
+	height:24px;
+	list-style:none;
+	line-height:24px;
+	font-size:12px;
+	margin-left:20px;
+	margin-top:3px;
+}
+.tjlx .l{
+	width:240px;
+}
+.tjlx .l a{
+	color:#226db1;
+	text-decoration:none;
+}
+.tjlx .l a:hover{
+	color:#ff7733;
+}
+.tjlx .m{
+	width:80px;
+	color:#226db1;
+}
+.tjlx .r{
+	width:50px;
+}
+.hotel{
+	border:1px #97d0ff solid;
+	height:220px;
+	width:714px;
+	float:left;
+	margin-top:5px;
+
+}
+.hotel_title{
+	background:url(images/title_bj.jpg) left;
+	height:29px;
+}
+.hotel_title h3{
+	color:#FFFFFF;
+	font-size:12px;
+	margin-left:22px;
+	line-height:29px;
+	letter-spacing:2px;
+}
+.hotel_intro{
+	width:220px;
+	height:190px;
+	float:left;
+	margin-left:12px;
+
+}
+.hotel_intro img {
+	border:1px #000000 solid;
+	margin:10px;
+}
+.hotel_intro h3{
+	float:right;
+	color:#1166bb;
+	font-size:12px;
+	margin-top:10px;
+	line-height:24px;
+}
+.hotel_intro p{
+	color:#ff7733;
+}
+.hotel_intro p img{
+margin:0;
+border:0;
+vertical-align:middle;
+}
+.hotel_intro dl{
+	border-top:#666666 1px dashed;
+	height:100px;
+	clear:both;
+	width:210px;
+}
+
+.hotel_intro dl dt{
+	font-size:12px;
+	height:24px;
+	line-height:24px;
+	color:#1166bb;
+	width:165px;
+	float:left;
+}
+.hotel_intro dl dt a{
+	font-size:12px;
+	color:#1166bb;
+	text-decoration:none;
+}
+.hotel_intro dl dt a:hover{
+	color:#ff7733;
+}
+.hotel_intro dl dd{
+	font-size:12px;
+	height:24px;
+	line-height:24px;
+	color:#ff7733;
+}
+/*right*/
+#right{
+float:left;
+margin-left:5px;
+width:237px;
+border:1px #97d0ff solid;
+height:505px;
+}
+.right_title{
+	background:url(images/title_bj.jpg) left;
+	height:29px;
+}
+.right_title h3{
+	color:#FFFFFF;
+	font-size:12px;
+	margin-left:22px;
+	line-height:29px;
+	letter-spacing:2px;
+}
+#right dl{
+	text-align:center;
+	margin:10px;
+}
+#right dl dt img{
+	border:1px #999999 solid;
+}
+#right dl dd{
+	margin:5px;
+}
+#right dl dd a{
+	color:#1166bb;
+	text-decoration:none;
+	font-size:12px;
+}
+#right dl dd a:hover{
+	color:#ff7733;
+}
+/*link*/
+#link{
+margin-top:5px;
+	clear:both;
+	width:958px;
+	border:1px #57c4ff solid;
+	
+}
+.link_title{
+	background:url(images/link_bj.jpg) repeat-x;
+	height:28px;
+}
+.link_title h3{
+	color:#FFFFFF;
+	font-size:12px;
+	margin-left:22px;
+	line-height:28px;
+	letter-spacing:2px;
+}
+#link p{
+	margin:10px;
+}
+#link p a{
+	color:#2d79a3;
+	font-size:12px;
+	text-decoration:none;
+	margin-left:15px;
+}
+#link p a:hover{
+	color:#FF9900;
+}
+footer{
+	text-align:center;
+	margin-top:5px;
+}
+footer p{
+	margin:15px auto;
+	font-size:12px;
+	line-height:24px;
+	color:#2c2c2c;
+}
